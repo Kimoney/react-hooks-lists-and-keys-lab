@@ -2,7 +2,7 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 
 function ProjectList({ projects }) {
-  console.log(projects);
+  // console.log(projects);
   const singleProject = projects.map( (oneProject) => (
     <ProjectItem
     key={oneProject.id}
